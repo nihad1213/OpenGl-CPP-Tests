@@ -1,1 +1,1 @@
-g++ <filename> -o test_glfw -lglfw -lGL -lm -lpthread -ldl
+g++ -o my_program main.cpp src/glad.c -Iinclude -lglfw -ldl
